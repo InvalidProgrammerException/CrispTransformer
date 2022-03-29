@@ -1,0 +1,5 @@
+transform.ValidateField("Order Number", "\\d+");
+transform.ValidateField("Year", "[1-9]ddd");
+transform.ValidateField("Month", "d+");
+transform.ValidateField("Day", "d+");
+transform.ValidateField("Product Number", "[A-Z]+[-]d+");

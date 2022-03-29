@@ -1,0 +1,7 @@
+C:\Users\Michael\source\repos\CrispTransformer\CrispTransformer\obj\Debug\CrispTransformer.csproj.AssemblyReference.cache
+C:\Users\Michael\source\repos\CrispTransformer\CrispTransformer\obj\Debug\CrispTransformer.csproj.CoreCompileInputs.cache
+C:\Users\Michael\source\repos\CrispTransformer\CrispTransformer\bin\Debug\CrispTransformer.exe.config
+C:\Users\Michael\source\repos\CrispTransformer\CrispTransformer\bin\Debug\CrispTransformer.exe
+C:\Users\Michael\source\repos\CrispTransformer\CrispTransformer\bin\Debug\CrispTransformer.pdb
+C:\Users\Michael\source\repos\CrispTransformer\CrispTransformer\obj\Debug\CrispTransformer.exe
+C:\Users\Michael\source\repos\CrispTransformer\CrispTransformer\obj\Debug\CrispTransformer.pdb

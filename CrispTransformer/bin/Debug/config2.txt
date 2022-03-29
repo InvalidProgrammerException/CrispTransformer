@@ -1,0 +1,33 @@
+if (!transform.ValidateField("Order Number", "\\d+"))
+	return true;
+if (!transform.ValidateField("Year", "\\d\\d\\d7"))
+	return true;
+if (!transform.ValidateField("Month", "\\d+"))
+	return true;
+if (!transform.ValidateField("Day", "\\d+"))
+	return true;
+if (!transform.ValidateField("Product Number", "[A-Z]+[-]\\d+"))
+	return true;
+	
+//OrderID
+int orderId;
+transform.StrToInt(transform.Field("Order Number"), out orderId);
+transform.OutputInt(orderId);
+
+//OrderDate
+int month;
+int day;
+int year;
+transform.StrToInt(transform.Field("Month"), out month);
+transform.StrToInt(transform.Field("Day"), out day);
+transform.StrToInt(transform.Field("Year"), out year);
+transform.Output(String.Format("{0}/{1}/{2}", month, day, year));
+
+//ProductId
+transform.Output(transform.Field("Product Number"));
+//ProductName
+transform.Output(transform.Field("Product Name"));
+//Quantity
+transform.Output(transform.Field("Count"));
+//unit
+transform.Output("kg");
